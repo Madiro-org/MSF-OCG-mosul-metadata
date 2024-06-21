@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.openmrs.module</groupId>
-	<artifactId>patientidentifiergenerator</artifactId>
-	<version>0.1.0</version>
+	<artifactId>mosulmetadata</artifactId>
+	<version>0.0.1</version>
 	<packaging>pom</packaging>
-	<name>MSF-OCG Patient Identifier Generator Module</name>
+	<name>MSF-OCG Mosul Metadata Module</name>
 
-	<description>Helps to generate Patient Identifier</description>
+	<description>Helps to Load metadata into Mosul</description>
 
 	<developers>
 		<developer>
@@ -24,7 +24,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<openMRSVersion>2.1.7</openMRSVersion>
+		<openMRSVersion>2.3.6</openMRSVersion>
 	</properties>
 
 	<dependencyManagement>

@@ -5,17 +5,17 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>patientidentifiergenerator</artifactId>
-		<version>0.1.0</version>
+		<artifactId>mosulmetadata</artifactId>
+		<version>0.0.1</version>
 	</parent>
 
-	<artifactId>patientidentifiergenerator-omod</artifactId>
+	<artifactId>mosulmetadata-omod</artifactId>
 	<packaging>jar</packaging>
-	<name>MSF-OCG Patient Identifier Generator Module OMOD</name>
-	<description>OMOD project for Patient Identifier Generator</description>
+	<name>MSF-OCG Mosul Metadata Module OMOD</name>
+	<description>OMOD project for Mosul Metadata</description>
 
 	<properties>
-		<openMRSVersion>2.1.7</openMRSVersion>
+		<openMRSVersion>2.3.6</openMRSVersion>
 	</properties>
 
 	<dependencies>
