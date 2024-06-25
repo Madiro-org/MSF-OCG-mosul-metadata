@@ -13,9 +13,4 @@
 
 	<activator>org.openmrs.module.mosulmetadata.MosulMetadataActivator</activator>
 	
-	<require_modules>
-		<require_module>
-			org.openmrs.module.dataexchange
-		</require_module>
-	</require_modules>
 </module>

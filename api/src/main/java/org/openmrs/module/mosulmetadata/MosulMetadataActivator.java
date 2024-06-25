@@ -13,21 +13,16 @@
  */
 package org.openmrs.module.mosulmetadata;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.openmrs.module.ModuleActivator;
-import org.openmrs.module.ModuleFactory;
-import org.openmrs.module.dataexchange.DataImporter;
-import org.openmrs.api.context.Context;
-
-import org.openmrs.module.Module;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * This class contains the logic that is run every time this module is either started or shutdown
  */
 public class MosulMetadataActivator implements ModuleActivator {
-
-	protected Log log = LogFactory.getLog(getClass());
+	
+	private static final Logger log = LoggerFactory.getLogger(MosulMetadataActivator.class);
 
 	/**
 	 * @see ModuleActivator#willRefreshContext()
@@ -55,18 +50,6 @@ public class MosulMetadataActivator implements ModuleActivator {
 	 */
 	public void started() {
 		log.info("Mosul Metadata Module started");
-		// try {
-		// 	DataImporter dataImporter = Context.getRegisteredComponent("dataImporter", DataImporter.class);
-
-		// 	log.info("Start import of Mosul Privileges");
-        //     dataImporter.importData("metadata/Role_Privilege.xml");
-        //     log.info("Mosul Privileges Imported");
-			
-        // } catch (Exception e) {
-        //     Module mod = ModuleFactory.getModuleById("mosulmetadata");
-        //     ModuleFactory.stopModule(mod);
-        //     throw new RuntimeException("failed to setup the module ", e);
-        // }
 	}
 
 	/**
