@@ -22,7 +22,7 @@ import org.mockito.Mock;
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({Context.class, UserService.class})
 @PowerMockIgnore({ "javax.management.*", "jdk.internal.reflect.*", "com.sun.*", "javax.*", "org.*" })
-public class MosulMetadataUserListenerTest extends BaseModuleContextSensitiveTest {
+public class MosulMetadataUserListenerTest {
 
     private final String mosulRoleNameTest = MosulMetadataConstants.REGISTRATION_OFFICER_ROLE_NAME;
 

@@ -15,7 +15,7 @@
 	<description>OMOD project for Mosul Metadata</description>
 
 	<properties>
-		<openMRSVersion>2.3.6</openMRSVersion>
+		<openMRSVersion>2.6.6</openMRSVersion>
 	</properties>
 
 	<dependencies>

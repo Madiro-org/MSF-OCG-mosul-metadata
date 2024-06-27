@@ -12,5 +12,10 @@
 	</description>
 
 	<activator>org.openmrs.module.mosulmetadata.MosulMetadataActivator</activator>
+
+	<require_modules>
+		<require_module version="2.7.0-SNAPSHOT">org.openmrs.module.initializer</require_module>
+		<require_module version="4.10.0">org.openmrs.module.idgen</require_module>
+	</require_modules>
 	
 </module>
